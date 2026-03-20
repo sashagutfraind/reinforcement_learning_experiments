@@ -30,19 +30,17 @@ Quickstart (using a Python virtual environment)
 4. Run an example (adjust path to the experiment you want to try):
 
    python rl2_qtable_llm/main.py
-   # or
+   or
    python rl1_qtable/main.py
 
 Notes
-- This repo is experimental: expect informal structure and evolving APIs.
+- This repo is experimental / scientific work: expect informal structure and evolving APIs.
 - Use the virtual environment to avoid dependency conflicts — some users abbreviate "venv" as "uv"; the steps above assume the standard Python `venv` workflow.
-- If you want help running a specific experiment or adding a requirements file, open an issue or ask in the project.
 
 Contributing
 - Feel free to fork, experiment, and submit patches or notes explaining what you changed and why.
 
 License
-- No license specified. If you plan to share or publish, consider adding a `LICENSE` file.
-
+- MIT 
 Contact
 - For questions about these experiments, open an issue or contact the repository owner.
