@@ -33,7 +33,7 @@ def plot_latent_preferences(run_id=None):
     plt.show()
 
 def plot_learning_curve(run_id=None):
-    search_path = f"rl2_qtable_llm/runs/run_{run_id}*.csv" if run_id else "rl2_qtable_llm/runs/*.csv"
+    search_path = f"runs/run_{run_id}*.csv" if run_id else "rl2_qtable_llm/runs/*.csv"
     files = glob.glob(search_path)
     if not files: return
 
@@ -56,7 +56,7 @@ def plot_learning_curve(run_id=None):
     plt.legend()
     plt.grid(True, linestyle='--', alpha=0.6)
     plt.tight_layout()
-    plt.savefig("learning_curve.png")
+    plt.savefig("runs/learning_curve.png")
     plt.show()
 
 if __name__ == "__main__":
