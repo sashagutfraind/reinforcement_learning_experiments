@@ -8,7 +8,7 @@ The code below shows a toy system: an AI-powered executive assistant (EA) is sch
 
 Table showing EA's learned knowledge
 
-<img src="preference_heatmap.png" width="50%">
+<img src="preference_heatmap.png" width="90%">
 
 
 Additional results, including more advanced training methods, are currently in development and will be published to this repository in the coming months.
