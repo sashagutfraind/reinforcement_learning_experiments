@@ -2,7 +2,7 @@
 Glyptic RL: Emergent World Models in LLM-powered Agents
 ================================================
 
-This research project introduces Glyptic Knowledge, a framework for Reinforcement Learning (RL) designed to accelerate learning in LLM-powered agents. While standard Large Language Models pass vast amounts of explicit, pre-trained knowledge, they often struggle to adapt to real-world settings. Glyptic knowledge is my term for knowledge acquired while doing, as opposed to pre-trained knowledge. I call this glyphic knowledge (from the Greek word for carving), and it's inspired by the epistomological theories of Dewey. The overall goal is to develop algorithms that show accelerating learning rates and even breakthroughs similar to the grokking phenomenon in pre-training.
+This research project introduces Glyptic Knowledge, a perspective on Reinforcement Learning (RL) designed to accelerate learning in LLM-powered agents. While standard Large Language Models possess vast amounts of explicit pre-trained knowledge, they often struggle to adapt to real-world settings. Glyptic knowledge is my term for knowledge acquired while doing, as opposed to pre-trained knowledge. I call this glyphic knowledge (from the Greek word for carving), and it's inspired by the epistomological theories of Dewey. The overall goal is to develop algorithms that show accelerating learning rates and even breakthroughs similar to the grokking phenomenon in pre-training.
 
 The code below shows a toy system: an AI-powered executive assistant (EA) is scheduling meetings for his boss, while trying to learn his boss's favorite times during the week. They exchange brief messages using LLM. Over several weeks of training, the EA agent develops a map of his boss's preference (see graphic)
 
@@ -16,7 +16,7 @@ Additional results, including more advanced training methods, are currently in d
 
 ## Contents
 - `rl1_qtable/` — RL for an agent acting as an Executive Assistant (Q-table RL)
-- `rl2_qtable_llm/` — Refinment of RL1 : agent is now using LLM
+- `rl2_qtable_llm/` — Refinement of RL1 : agent is now using LLM
 
 ## Quickstart
 
